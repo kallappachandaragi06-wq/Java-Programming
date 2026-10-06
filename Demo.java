@@ -1,20 +1,19 @@
-package project;
-
-public class Demo
-{
-  void add (String s)
+package enacaspulation;
+//
+interface ABCD{
+	void m1();
+	}
+class Demo implements ABCD{
+	public void m1() {
+		System.out.println("asddghjkklljhjghfgd");
+	}
+	public static void main(String[] args)
 	{
-		System.out.println("laat");
+		Demo bb  = new Demo();
+		bb.m1();
+		
+		
 	}
-	void add (int a , int b)
-	{
-		System.out.println("asdfast");
-	}
-
-	public static void main(String[] args) {
-	Demo tt = new Demo ();
-		tt.add(2,3);
-		tt.add("asdfast");
-	}
+	
 
 }
